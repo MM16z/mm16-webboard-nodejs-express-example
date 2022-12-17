@@ -1,6 +1,7 @@
 const express = require("express");
 var bodyParser = require("body-parser");
 var jsonParser = bodyParser.json();
+
 const db = require("../db");
 
 const router = express.Router();
