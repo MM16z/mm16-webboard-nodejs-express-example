@@ -3,7 +3,7 @@ var bodyParser = require("body-parser");
 var jwt = require("jsonwebtoken");
 var jsonParser = bodyParser.json();
 
-const mm16ztoken = "private";
+const mm16ztoken = "example-only";
 
 const router = express.Router();
 
